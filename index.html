@@ -20,36 +20,34 @@
             <div class="collapse navbar-collapse" id="navcol-1">
                 <ul class="nav navbar-nav flex-grow-1 justify-content-between">
                     <li class="nav-item" role="presentation"><a class="nav-link" href="#"><i class="icon ion-bonfire apple-logo"></i></a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="#">Home</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="#">Projects</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="#">Skills</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="#">Experience</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="#">Contact</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="/#projects">Projects</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="/#skills">Skills</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="/#experience">Experience</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="cv.html">CV</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="/#contact">Contact</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="#"><i class="fa fa-search"></i></a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="#"><i class="fa fa-shopping-bag"></i></a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <h2>Special Skills</h2>
-    <section class="portfolio-block block-intro" style="height: 500px;">
+    <!-- Start: Mobile App White -->
+    <section class="portfolio-block mobile-app">
         <div class="container">
-            <div class="row align-items-center" style="margin: 0px;">
-                <div class="col-md-12 col-lg-5" style="margin: 0px;padding: 30px;">
-                    <div class="portfolio-laptop-mockup">
-                        <div class="screen" style="width: 334px;height: 224px;">
-                            <div data-aos="zoom-out-up" data-aos-duration="1000" class="screen-content" style="background-image: url(&quot;assets/img/P1320778.jpg&quot;);"></div>
-                        </div>
-                        <div data-aos="slide-up" data-aos-duration="1000" data-aos-delay="1000" class="keyboard" style="width: 365px;"></div>
-                    </div>
-                </div>
-                <div class="col-md-12 col-lg-5 offset-lg-1 text" data-aos="fade-down" data-aos-duration="600" data-aos-delay="1000">
-                    <p>Hello! I am&nbsp;<strong>Emmanuel Murairi</strong>. I work as interface and front end developer. I have passion for pixel perfect, minimal and easy to use interfaces.</p><a class="btn btn-outline-primary" role="button" href="#">Hire me</a></div>
-            </div>
+            <div class="avatar" style="background-image:url(&quot;assets/img/avatars/avatar.jpg&quot;);"></div>
         </div>
+        <section id="about1" class="portfolio-block block-intro" style="padding: 40px;">
+            <div class="container">
+                <div data-aos="zoom-out-up" data-aos-duration="1000" class="avatar" style="background-image: url(&quot;assets/img/P1320778.jpg&quot;);width: 250px;height: 190px;filter: blur(0px) brightness(100%) invert(0%) sepia(0%);"></div>
+                <div class="about-me">
+                    <p data-aos="slide-up" data-aos-duration="800">Hello! I am <strong>Emmanuel Murairi</strong>. I work as interface and front end developer. I have passion for pixel perfect, minimal and easy to use interfaces.</p><a class="btn btn-outline-primary" role="button" href="hire-me.html">Hire me</a></div>
+            </div>
+        </section>
     </section>
-    <!-- Start: Projects Clean -->
-    <div class="projects-clean" style="background-color: rgb(52,58,64);">
+    <!-- End: Mobile App White -->
+    <!-- Start: Projects -->
+    <div class="d-sm-block d-md-block d-lg-block d-xl-block projects-clean" id="projects" style="background-color: rgb(52,58,64);margin: 0px;margin-top: 0;padding: 0px;padding-top: 0px;">
         <div class="container">
             <!-- Start: Intro -->
             <div class="intro">
@@ -87,14 +85,38 @@
             <!-- End: Projects -->
         </div>
     </div>
-    <!-- End: Projects Clean -->
+    <!-- End: Projects -->
     <main class="page lanidng-page" style="color: rgb(0,0,0);">
-        <section class="portfolio-block call-to-action border-bottom">
-            <div class="container">
-                <div class="d-flex justify-content-center align-items-center content">
-                    <h3>Like what you see?</h3><button class="btn btn-outline-primary btn-lg" type="button">Hire me</button></div>
+        <section id="skills">
+            <!-- Start: Skills Card -->
+            <div class="skills portfolio-info-card" style="margin: 0px;margin-right: 20%;margin-left: 20%;">
+                <h2 class="text-center">Skills</h2>
+                <h3>HTML5 - CSS3</h3>
+                <div class="progress">
+                    <div class="progress-bar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%;"><span class="sr-only">95%</span></div>
+                </div>
+                <h3>Python [PyQt5 |&nbsp;Django]</h3>
+                <div class="progress">
+                    <div class="progress-bar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"><span class="sr-only">90%</span></div>
+                </div>
+                <h3>JavaScript [JQuery |&nbsp;ReactJS]</h3>
+                <div class="progress">
+                    <div class="progress-bar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"><span class="sr-only">80%</span></div>
+                </div>
+                <h3>Cloud Computing [AWS]</h3>
+                <div class="progress">
+                    <div class="progress-bar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"><span class="sr-only">70%</span></div>
+                </div>
             </div>
-            <!-- Start: Bootstrap 4 - Timeline --><div class="timeline">
+            <!-- End: Skills Card -->
+        </section>
+    </main>
+    <section class="portfolio-block call-to-action border-bottom">
+        <div class="container">
+            <div class="d-flex justify-content-center align-items-center content" style="padding-top: 20px;">
+                <h3>Like what you see?</h3><button class="btn btn-outline-primary btn-lg" type="button">Hire me</button></div>
+        </div>
+        <!-- Start: Bootstrap 4 - Timeline --><div class="timeline" id="experience">
 <div class="container py-5">
 
         <div class="row">
@@ -135,17 +157,30 @@
         </div>
     </div>
     </div>
-            <!-- End: Bootstrap 4 - Timeline -->
-            <div class="d-flex justify-content-center align-items-center content">
-                <h3>Want to see more?</h3><button class="btn btn-outline-primary btn-lg" type="button">Download my CV</button></div>
-        </section>
-    </main>
-    <footer class="page-footer">
+        <!-- End: Bootstrap 4 - Timeline -->
+        <div class="d-flex justify-content-center align-items-center content">
+            <h3>Want to see more?</h3><a class="btn btn-outline-primary btn-lg" role="button" href="cv.html">View my CV</a></div>
+    </section>
+    <section class="portfolio-block contact">
         <div class="container">
-            <div class="links"><a href="#">About me</a><a href="#">Contact me</a><a href="#">Projects</a></div>
-            <div class="social-icons"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-instagram-outline"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a></div>
+            <div class="heading">
+                <h2>Contact me</h2>
+            </div>
+            <form>
+                <div class="form-group"><label for="name">Your Name</label><input class="form-control item" type="text" id="name"></div>
+                <div class="form-group"><label for="subject">Subject</label><input class="form-control item" type="text" id="subject"></div>
+                <div class="form-group"><label for="email">Email</label><input class="form-control item" type="email" id="email"></div>
+                <div class="form-group"><label for="message">Message</label><textarea class="form-control item" id="message"></textarea></div>
+                <div class="form-group"><button class="btn btn-primary btn-block btn-lg" type="submit">Submit Form</button></div>
+            </form>
         </div>
-    </footer>
+        <footer class="page-footer">
+            <div class="container">
+                <div class="links"><a href="#">About me</a><a href="#">Contact me</a><a href="#">Projects</a></div>
+                <div class="social-icons"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-instagram-outline"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a></div>
+            </div>
+        </footer>
+    </section>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
