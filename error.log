@@ -33,3 +33,26 @@ Tue May 12 2020 22:47:10 GMT+0200 (South Africa Standard Time)
 fatal: could not read Username for 'https://github.com': No such device or address
 
 
+----------
+
+Thu May 21 2020 23:45:01 GMT+0200 (South Africa Standard Time)
+
+To https://github.com/Emmastro/Emmastro.github.io.git
+   3c9f259..025663f  master -> master
+
+
+----------
+
+Thu May 21 2020 23:45:11 GMT+0200 (South Africa Standard Time)
+
+To https://github.com/Emmastro/Emmastro.github.io.git
+ ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at 025663f618c5798eb47f454cdc717573f1b978a8 but expected 3c9f2598458b1054acf00fba53383c42f8bfd325)
+
+
+----------
+
+Thu May 21 2020 23:45:11 GMT+0200 (South Africa Standard Time)
+
+error: failed to push some refs to 'https://github.com/Emmastro/Emmastro.github.io.git'
+
+
