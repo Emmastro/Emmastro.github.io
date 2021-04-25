@@ -28,7 +28,11 @@
   gtag('js', new Date());
 
   gtag('config', 'UA-167588491-1');
+  var host = "YOURDOMAIN.github.io";
+  if ((host == window.location.host) && (window.location.protocol != "https:"))
+  window.location.protocol = "https";
 </script>
+
 </head>
 
 <body style="overflow-x:hidden">
