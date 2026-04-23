@@ -163,7 +163,7 @@ h2 {
 .credentials-lines p,
 .contact-band p,
 .writing-intro p,
-.story-copy {
+.story-quote {
   font-family: "Source Serif 4", serif;
   font-size: 1.02rem;
   line-height: 1.75;
@@ -390,19 +390,39 @@ h2 {
   box-shadow: var(--shadow);
 }
 
-.story-kicker {
-  margin: 0 0 12px;
-  color: rgba(247, 240, 232, 0.78);
-  font-size: 0.82rem;
-  font-weight: 700;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-}
-
-.story-copy {
+.story-quote {
   max-width: 62ch;
   margin: 0;
+  padding: 0 0 0 30px;
+  border: 0;
   color: #f7f0e8;
+  font-family: "Source Serif 4", serif;
+  font-size: 1.35rem;
+  line-height: 1.7;
+  font-style: italic;
+  position: relative;
+}
+
+.story-quote::before {
+  content: "“";
+  position: absolute;
+  left: 0;
+  top: -0.28em;
+  color: rgba(247, 240, 232, 0.24);
+  font-family: "Source Serif 4", serif;
+  font-size: 4.8rem;
+  line-height: 1;
+  font-style: normal;
+}
+
+.story-quote cite {
+  display: block;
+  margin-top: 14px;
+  color: rgba(247, 240, 232, 0.78);
+  font-style: normal;
+  font-size: 0.95rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .writing-section {
