@@ -148,7 +148,7 @@ h1 {
 }
 
 h2 {
-  max-width: 12ch;
+  max-width: 16ch;
   font-size: clamp(2rem, 3vw, 3.2rem);
   line-height: 1.02;
   letter-spacing: -0.04em;
